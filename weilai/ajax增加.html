@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div >
+			<input type="text" name="txtid" id="txtid" value="" />
+			<input type="text" name="" id="txtname" value="" />
+			<input type="text" id="txtprice" value="" />
+			<input type="text" name="txtsrc" id="txtsrc" value="" />
+			<input type="button" id="bt1" value="" />
+			
+			<script type="text/javascript">
+				#(function(){
+					$("#bt1").on("click",function(){
+						var pName = $("#txtname").val();
+						var pId = $("#txtid").val();
+						var pPrice = $("#txtprice").val();
+						
+						$.ajax({
+							type:"post",
+							data:{
+								"id":pId,
+								
+							},
+							url:"../product/CreateUpdateProduct_post",
+							async:true
+						});
+					})
+				})
+				
+			</script>
+			
+		</div>
+	</body>
+</html>

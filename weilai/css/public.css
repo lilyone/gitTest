@@ -1,0 +1,17 @@
+body,p,ul,dl,ol,li,h1,h3,h4,h2,h5,h6,fieldset,legend,dl,dt,dd{margin:0;padding:0;}
+body{font-family: "微软雅黑"; font-size: 12px;overflow-x: hidden; margin-bottom: 5000px;}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#666;}
+img{border:0;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+.left{float:left;}
+.noborder{border:none;}
+.container{width: 1200px; margin: 0 auto;}
+img{
+	display: block;
+	border: 0;
+}
+.no_margin{
+	margin: 0;
+}
